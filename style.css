@@ -33,6 +33,7 @@ header ul li a {
   font-size: 1.125rem;
   color: #e5e7eb;
   font-weight: 300;
+  cursor: pointer;
 }
 
 section.hero {
@@ -62,6 +63,7 @@ section.hero div.hero-text button {
   border-radius: 5px;
   border-style: none;
   color: #f9faf8;
+  cursor: pointer;
 }
 
 section.articles {
@@ -109,4 +111,33 @@ section.quotes p.author {
   color: #1f2937;
   font-weight: 900;
   text-align: right;
+}
+
+section.call-to-action {
+  background-color: #ffffff;
+}
+
+section.call-to-action div.call-to-action-container {
+  background-color: #3882f6;
+  display: flex;
+}
+section.call-to-action div.call-to-action-container div.call-to-action-text {
+  margin-right: auto;
+}
+section.call-to-action div.call-to-action-container div.call-to-action-text h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+section.call-to-action div.call-to-action-container div.call-to-action-text p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+}
+section.call-to-action div.call-to-action-container button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
