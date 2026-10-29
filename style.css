@@ -63,3 +63,33 @@ section.hero div.hero-text button {
   border-style: none;
   color: #f9faf8;
 }
+
+section.articles {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.articles h2 {
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+section.articles div.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+section.articles div.cards-container div.card-container {
+  max-width: 210px;
+}
+
+section.articles div.cards-container div.card-container img {
+  border: 5px solid #3882f6;
+  border-radius: 5px;
+}
