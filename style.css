@@ -4,15 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 2px solid red; */
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header {
   display: flex;
+  padding: 20px 100px;
 }
 
 header p {
@@ -37,13 +42,17 @@ header ul li a {
 }
 
 section.hero {
+  padding: 50px 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 section.hero div.hero-text {
   max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section.hero div.hero-text h1 {
@@ -58,15 +67,19 @@ section.hero div.hero-text p {
 }
 
 section.hero div.hero-text button {
+  margin-top: auto;
+  max-width: 150px;
   background-color: #3882f6;
-  padding: 5px 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   border-style: none;
   color: #f9faf8;
+  font-weight: 900;
   cursor: pointer;
 }
 
 section.articles {
+  padding: 50px 100px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -75,20 +88,28 @@ section.articles {
 }
 
 section.articles h2 {
+  margin-bottom: 20px;
   font-size: 2.25rem;
   color: #1f2937;
   font-weight: 900;
 }
 
 section.articles div.cards-container {
+  margin-top: 50px;
+  margin-bottom: 75px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 20px;
 }
 
 section.articles div.cards-container div.card-container {
-  max-width: 210px;
+  max-width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
 }
 
 section.articles div.cards-container div.card-container img {
@@ -98,6 +119,7 @@ section.articles div.cards-container div.card-container img {
 
 section.quotes {
   background-color: #e5e7eb;
+  padding: 100px 175px;
 }
 
 section.quotes p.quote {
@@ -115,11 +137,15 @@ section.quotes p.author {
 
 section.call-to-action {
   background-color: #ffffff;
+  padding: 50px 100px;
 }
 
 section.call-to-action div.call-to-action-container {
   background-color: #3882f6;
+  padding: 25px 75px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 section.call-to-action div.call-to-action-container div.call-to-action-text {
   margin-right: auto;
@@ -140,4 +166,19 @@ section.call-to-action div.call-to-action-container button {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  padding: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ffffff;
 }
