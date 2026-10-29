@@ -93,3 +93,20 @@ section.articles div.cards-container div.card-container img {
   border: 5px solid #3882f6;
   border-radius: 5px;
 }
+
+section.quotes {
+  background-color: #e5e7eb;
+}
+
+section.quotes p.quote {
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+section.quotes p.author {
+  color: #1f2937;
+  font-weight: 900;
+  text-align: right;
+}
