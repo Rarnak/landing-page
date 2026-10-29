@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto", sans-serif;
   background-color: #1f2937;
 }
@@ -28,4 +33,33 @@ header ul li a {
   font-size: 1.125rem;
   color: #e5e7eb;
   font-weight: 300;
+}
+
+section.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.hero div.hero-text {
+  max-width: 400px;
+}
+
+section.hero div.hero-text h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+section.hero div.hero-text p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
+section.hero div.hero-text button {
+  background-color: #3882f6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-style: none;
+  color: #f9faf8;
 }
